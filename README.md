@@ -52,10 +52,11 @@ PRIVATE_KEY=<YOUR_PRIVATE_KEY_HERE>
 STAGING_QUICKNODE_KEY=<STAGING_QUICKNODE_KEY>
 WALLET_ADDRESS=<YOUR_WALLET_ADDRESS>
 ```
-##link to the MVP of the prodoct
-**solo-projects-grandidah.vercel.app**
-**solo-projects-grandidah-git-main-samailamalima.vercel.app**
-**solo-projects-grandidah-samailamalima.vercel.app**
+## link to the MVP of the prodoct
+
+<solo-projects-grandidah.vercel.app>
+<solo-projects-grandidah-git-main-samailamalima.vercel.app>
+<solo-projects-grandidah-samailamalima.vercel.app>
 
 ## The Image for the dashboard before connecting to polygon wallet and after connecting with wallet with some domain minted
 
