@@ -1,5 +1,5 @@
 # **M2 Domain** 
-This is a simple demonstration of an etherium name service driven dapp. As usual, Nextjs is used on the frontend together with web3modal which is used for integrating our Metamask wallet. The dependency, ether was also used in the development.
+This is a dApp theat is built on Polygon network. As usual, Reactjs is used on the frontend with Tailwind css together with QuickNode which is used for integrating our Metamask wallet. The dependency, ether, Hardhat, Oppenzepeline, Polygon pos chain was also used in the development to provide chieve access to domain service on polygon.
 ## Built-with
 
 -   [ReactJS](https://reactjs.org/)
@@ -47,8 +47,7 @@ PRIVATE_KEY=<YOUR_PRIVATE_KEY_HERE>
 STAGING_QUICKNODE_KEY=<STAGING_QUICKNODE_KEY>
 WALLET_ADDRESS=<YOUR_WALLET_ADDRESS>
 ```
-
-This is similar to the relationship Ethereum has with Polygon. Ethereum wasn’t built to handle an insane number of transactions so it gets backed up quickly. Polygon is able to handle a higher transaction count and then it bundles up all those transactions up and deposits them to Ethereum as the final source of truth.
+## The Image for the dashboard before connecting to polygon wallet and after connecting with wallet with some domain minted
 
 ![Screenshot from 2023-01-21 13-44-17](https://user-images.githubusercontent.com/41795852/213869687-586a69c6-dc37-433f-a02b-853e57a26651.png)
 
