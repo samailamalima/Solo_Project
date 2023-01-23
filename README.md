@@ -21,6 +21,11 @@ git clone with SSH            git@github.com:samailamalima/Solo_Project.git
 git clone with Github CLI     gh repo clone samailamalima/Solo_Project
 ```
 
+```sh
+git clone with HTTPS          https://github.com/samailamalima/Solo_Projects_Grandidah.git
+git clone with SSH            git@github.com:samailamalima/Solo_Projects_Grandidah.git
+git clone with Github CLI     gh repo clone samailamalima/Solo_Projects_Grandidah
+```
 2. Development
 
 Running the frontend code
@@ -47,6 +52,11 @@ PRIVATE_KEY=<YOUR_PRIVATE_KEY_HERE>
 STAGING_QUICKNODE_KEY=<STAGING_QUICKNODE_KEY>
 WALLET_ADDRESS=<YOUR_WALLET_ADDRESS>
 ```
+##link to the MVP of the prodoct
+solo-projects-grandidah.vercel.app
+solo-projects-grandidah-git-main-samailamalima.vercel.app
+solo-projects-grandidah-samailamalima.vercel.app
+
 ## The Image for the dashboard before connecting to polygon wallet and after connecting with wallet with some domain minted
 
 ![Screenshot from 2023-01-21 13-44-17](https://user-images.githubusercontent.com/41795852/213869687-586a69c6-dc37-433f-a02b-853e57a26651.png)
