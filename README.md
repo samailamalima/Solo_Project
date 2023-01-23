@@ -1,32 +1,52 @@
 # **M2 Domain** 
+This is a simple demonstration of an etherium name service driven dapp. As usual, Nextjs is used on the frontend together with web3modal which is used for integrating our Metamask wallet. The dependency, ether was also used in the development.
+## Built-with
 
-## **Set up the projects Smart contract**
+-   [ReactJS](https://reactjs.org/)
+-   [Hardhat](https://hardhat.org/)
 
-When setting up the projects Smart constract in your local machine. It will comes with full fuctioning of the projects smart contract, a test for that contract, and a script that deploys that contract.
+<br />
 
-To get started with the smart contract clone this repo and follow these commands::
-cd into the domain root directory to run the smart contract.
+<!-- GETTING STARTED -->
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-npx hardhat run scripts/deploy.js --network mumbai
+## Getting Started
+
+This is an example of how you can set up your project locally. To get a local copy up and running follow these simple example steps.
+
+1. Clone the repo
+
+```sh
+git clone with HTTPS          https://github.com/samailamalima/Solo_Project.git
+git clone with SSH            git@github.com:samailamalima/Solo_Project.git
+git clone with Github CLI     gh repo clone samailamalima/Solo_Project
 ```
 
-### **To start the frontend of the projects**
+2. Development
 
-To get started with this course, clone this repo and follow these commands:
+Running the frontend code
 
-1. Run `npm install` at the root of your directory
-2. Run `npm run start` to start the project
-3. Start coding!
+```sh
+1. cd frontend
+2. npm install
+3. npm run start
+```
 
-### What is the `.vscode` Folder?
-If you use VSCode to build your app, we included a list of suggested extensions that will help you build this project! Once you open this project in VSCode, you will see a popup asking if you want to download the recommended extensions :).
+Running the smart contract
 
+```sh
+1. cd cool-domains
+2. npm install
+3. npx hardhat run scripts/run.js
+4. make sure you fill up the information in .env file
+```
+
+This is how your .env file is suppose to look like. Remember to remove `<>` when placing your private and API keys.
+
+```sh
+PRIVATE_KEY=<YOUR_PRIVATE_KEY_HERE>
+STAGING_QUICKNODE_KEY=<STAGING_QUICKNODE_KEY>
+WALLET_ADDRESS=<YOUR_WALLET_ADDRESS>
+```
 
 This is similar to the relationship Ethereum has with Polygon. Ethereum wasn’t built to handle an insane number of transactions so it gets backed up quickly. Polygon is able to handle a higher transaction count and then it bundles up all those transactions up and deposits them to Ethereum as the final source of truth.
 
