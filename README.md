@@ -54,11 +54,7 @@ WALLET_ADDRESS=<YOUR_WALLET_ADDRESS>
 ```
 ## link to the MVP of the prodoct
 
-www.solo-projects-grandidah.vercel.app
-
-www.solo-projects-grandidah-git-main-samailamalima.vercel.app
-
-www.solo-projects-grandidah-samailamalima.vercel.app
+https://solo-projects-grandidah.vercel.app/
 
 ## The Image for the dashboard before connecting to polygon wallet and after connecting with wallet with some domain minted
 
