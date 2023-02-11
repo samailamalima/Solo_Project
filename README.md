@@ -44,6 +44,9 @@ Running the smart contract
 3. npx hardhat run scripts/run.js
 4. make sure you fill up the information in .env file
 ```
+To get some fake MATIC, 
+
+Head over to Polygon’s faucet system here - https://faucet.polygon.technology/
 
 This is how your .env file is suppose to look like. Remember to remove `<>` when placing your private and API keys.
 
